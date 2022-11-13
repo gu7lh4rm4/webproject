@@ -1,0 +1,18 @@
+[credential]
+	helper = cache
+[user]
+	email = gu7lh4rm4d3v3l0p4r@gmail.com
+	name = gu7lh4rm4
+[init]
+	defaultBranch = main
+git remote add origin https://github.com/gu7lh4rm4/webproject.git
+git branch -M main
+git config --global init.defaultBranch main
+git config --global credential.helper cache
+git config --global user.name "gu7lh4rm4"
+git config --global user.email "gu7lh4rm4d3v3l0p4r@gmail.com"
+git add .
+git commit -m "full files"
+git push -u origin main
+
+quando solicitar senha colar o token no campo passwords
